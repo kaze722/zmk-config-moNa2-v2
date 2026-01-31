@@ -39,6 +39,11 @@
             key-positions = <30 31>;
             layers = <0>;
         };
+
+        scroll {
+            bindings = <&to 6>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
@@ -63,9 +68,10 @@
         scroll_up_down: mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
             tap-ms = <20>;
+            label = "reverse_scroll";
         };
 
         scroll_right_left: mouse_wheel_right_left {
