@@ -124,8 +124,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-WIN">
-<text x="0" y="28" class="label" id="WIN">WIN:</text>
+<g transform="translate(30, 0)" class="layer-Default">
+<text x="0" y="28" class="label" id="Default">Default:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -210,8 +210,8 @@ path.combo {
 <g transform="translate(700, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
-<a href="#MOUSE_W">
-<text x="0" y="24" class="key hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="0" y="24" class="key hold layer-activator">Layer4</text>
 </a></g>
 <g transform="translate(28, 140)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -261,8 +261,8 @@ path.combo {
 <g transform="translate(700, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">/</text>
-<a href="#BLE_W">
-<text x="0" y="24" class="key hold layer-activator">BLE_W</text>
+<a href="#Layer10">
+<text x="0" y="24" class="key hold layer-activator">Layer10</text>
 </a></g>
 <g transform="translate(28, 196)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -283,20 +283,20 @@ path.combo {
 <g transform="translate(196, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">`</text>
-<a href="#NUM_W">
-<text x="0" y="24" class="key hold layer-activator">NUM_W</text>
+<a href="#Layer2">
+<text x="0" y="24" class="key hold layer-activator">Layer2</text>
 </a></g>
 <g transform="translate(252, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<a href="#MOUSE_W">
-<text x="0" y="24" class="key hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="0" y="24" class="key hold layer-activator">Layer4</text>
 </a></g>
 <g transform="translate(308, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">-</text>
-<a href="#SCRL_W">
-<text x="0" y="24" class="key hold layer-activator">SCRL_W</text>
+<a href="#Layer6">
+<text x="0" y="24" class="key hold layer-activator">Layer6</text>
 </a></g>
 <g transform="translate(420, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -317,8 +317,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -326,8 +326,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 280)" class="layer-MAC">
-<text x="0" y="28" class="label" id="MAC">MAC:</text>
+<g transform="translate(30, 280)" class="layer-Layer1">
+<text x="0" y="28" class="label" id="Layer1">Layer1:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -412,8 +412,8 @@ path.combo {
 <g transform="translate(700, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
-<a href="#MOUSE_W">
-<text x="0" y="24" class="key hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="0" y="24" class="key hold layer-activator">Layer4</text>
 </a></g>
 <g transform="translate(28, 140)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -463,8 +463,8 @@ path.combo {
 <g transform="translate(700, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">/</text>
-<a href="#BLE_M">
-<text x="0" y="24" class="key hold layer-activator">BLE_M</text>
+<a href="#Layer11">
+<text x="0" y="24" class="key hold layer-activator">Layer11</text>
 </a></g>
 <g transform="translate(28, 196)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -487,20 +487,20 @@ path.combo {
 <g transform="translate(196, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">`</text>
-<a href="#NUM_M">
-<text x="0" y="24" class="key hold layer-activator">NUM_M</text>
+<a href="#Layer3">
+<text x="0" y="24" class="key hold layer-activator">Layer3</text>
 </a></g>
 <g transform="translate(252, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<a href="#MOUSE_M">
-<text x="0" y="24" class="key hold layer-activator">MOUSE_M</text>
+<a href="#Layer5">
+<text x="0" y="24" class="key hold layer-activator">Layer5</text>
 </a></g>
 <g transform="translate(308, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">-</text>
-<a href="#SCRL_M">
-<text x="0" y="24" class="key hold layer-activator">SCRL_M</text>
+<a href="#Layer7">
+<text x="0" y="24" class="key hold layer-activator">Layer7</text>
 </a></g>
 <g transform="translate(420, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -521,8 +521,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -530,8 +530,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 560)" class="layer-NUM_W">
-<text x="0" y="28" class="label" id="NUM_W">NUM_W:</text>
+<g transform="translate(30, 560)" class="layer-Layer2">
+<text x="0" y="28" class="label" id="Layer2">Layer2:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -711,8 +711,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -720,8 +720,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 840)" class="layer-NUM_M">
-<text x="0" y="28" class="label" id="NUM_M">NUM_M:</text>
+<g transform="translate(30, 840)" class="layer-Layer3">
+<text x="0" y="28" class="label" id="Layer3">Layer3:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -903,8 +903,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -912,8 +912,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1120)" class="layer-MOUSE_W">
-<text x="0" y="28" class="label" id="MOUSE_W">MOUSE_W:</text>
+<g transform="translate(30, 1120)" class="layer-Layer4">
+<text x="0" y="28" class="label" id="Layer4">Layer4:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -999,8 +999,8 @@ path.combo {
 </g>
 <g transform="translate(588, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#SCRL_W">
-<text x="0" y="0" class="key tap layer-activator">SCRL_W</text>
+<a href="#Layer6">
+<text x="0" y="0" class="key tap layer-activator">Layer6</text>
 </a></g>
 <g transform="translate(644, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1108,8 +1108,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -1117,8 +1117,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1400)" class="layer-MOUSE_M">
-<text x="0" y="28" class="label" id="MOUSE_M">MOUSE_M:</text>
+<g transform="translate(30, 1400)" class="layer-Layer5">
+<text x="0" y="28" class="label" id="Layer5">Layer5:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1208,8 +1208,8 @@ path.combo {
 </g>
 <g transform="translate(588, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#SCRL_M">
-<text x="0" y="0" class="key tap layer-activator">SCRL_M</text>
+<a href="#Layer7">
+<text x="0" y="0" class="key tap layer-activator">Layer7</text>
 </a></g>
 <g transform="translate(644, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1324,8 +1324,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -1333,8 +1333,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1680)" class="layer-SCRL_W">
-<text x="0" y="28" class="label" id="SCRL_W">SCRL_W:</text>
+<g transform="translate(30, 1680)" class="layer-Layer6">
+<text x="0" y="28" class="label" id="Layer6">Layer6:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1536,8 +1536,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -1545,8 +1545,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1960)" class="layer-SCRL_M">
-<text x="0" y="28" class="label" id="SCRL_M">SCRL_M:</text>
+<g transform="translate(30, 1960)" class="layer-Layer7">
+<text x="0" y="28" class="label" id="Layer7">Layer7:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1744,8 +1744,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -1753,8 +1753,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 2240)" class="layer-FN_W">
-<text x="0" y="28" class="label" id="FN_W">FN_W:</text>
+<g transform="translate(30, 2240)" class="layer-Layer8">
+<text x="0" y="28" class="label" id="Layer8">Layer8:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1935,8 +1935,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -1944,8 +1944,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 2520)" class="layer-FN_M">
-<text x="0" y="28" class="label" id="FN_M">FN_M:</text>
+<g transform="translate(30, 2520)" class="layer-Layer9">
+<text x="0" y="28" class="label" id="Layer9">Layer9:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2120,8 +2120,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -2129,8 +2129,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 2800)" class="layer-BLE_W">
-<text x="0" y="28" class="label" id="BLE_W">BLE_W:</text>
+<g transform="translate(30, 2800)" class="layer-Layer10">
+<text x="0" y="28" class="label" id="Layer10">Layer10:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2312,8 +2312,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
@@ -2321,8 +2321,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 3080)" class="layer-BLE_M">
-<text x="0" y="28" class="label" id="BLE_M">BLE_M:</text>
+<g transform="translate(30, 3080)" class="layer-Layer11">
+<text x="0" y="28" class="label" id="Layer11">Layer11:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2504,8 +2504,8 @@ path.combo {
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <text x="364" y="196" class="combo tap">ESC</text>
-<a href="#MOUSE_W">
-<text x="364" y="207" class="combo hold layer-activator">MOUSE_W</text>
+<a href="#Layer4">
+<text x="364" y="207" class="combo hold layer-activator">Layer4</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>

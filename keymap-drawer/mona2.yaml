@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  WIN:
+  Default:
   - Q
   - W
   - E
@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: MOUSE_W}
+  - {t: ;, h: Layer4}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -33,17 +33,17 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: BLE_W}
+  - {t: /, h: Layer10}
   - RCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '`', h: NUM_W}
-  - {t: SPACE, h: MOUSE_W}
-  - {t: '-', h: SCRL_W}
+  - {t: '`', h: Layer2}
+  - {t: SPACE, h: Layer4}
+  - {t: '-', h: Layer6}
   - ENTER
   - BACKSPACE
   - RIGHT SHIFT
-  MAC:
+  Layer1:
   - Q
   - W
   - E
@@ -64,7 +64,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: MOUSE_W}
+  - {t: ;, h: Layer4}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -76,17 +76,17 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: BLE_M}
+  - {t: /, h: Layer11}
   - LEFT GUI
   - LEFT WIN
   - LEFT ALT
-  - {t: '`', h: NUM_M}
-  - {t: SPACE, h: MOUSE_M}
-  - {t: '-', h: SCRL_M}
+  - {t: '`', h: Layer3}
+  - {t: SPACE, h: Layer5}
+  - {t: '-', h: Layer7}
   - ENTER
   - BACKSPACE
   - RIGHT SHIFT
-  NUM_W:
+  Layer2:
   - ESCAPE
   - '!'
   - '@'
@@ -129,7 +129,7 @@ layers:
   - ENTER
   - BACKSPACE
   - RIGHT SHIFT
-  NUM_M:
+  Layer3:
   - ESCAPE
   - '!'
   - '@'
@@ -172,7 +172,7 @@ layers:
   - ENTER
   - BACKSPACE
   - RIGHT SHIFT
-  MOUSE_W:
+  Layer4:
   - ESCAPE
   - Ctl+Z
   - UP ARROW
@@ -191,7 +191,7 @@ layers:
   - _
   - '!'
   - '&mkp MB1'
-  - SCRL_W
+  - Layer6
   - '&mkp MB2'
   - {t: '&henkan', type: held}
   - {t: KP 0, h: LEFT SHIFT}
@@ -215,7 +215,7 @@ layers:
   - ENTER
   - BACKSPACE
   - '|'
-  MOUSE_M:
+  Layer5:
   - ESCAPE
   - Gui+Z
   - UP ARROW
@@ -234,7 +234,7 @@ layers:
   - _
   - '!'
   - '&mkp MB1'
-  - SCRL_M
+  - Layer7
   - '&mkp MB2'
   - Ctl+SPACE
   - {t: KP 0, h: LEFT SHIFT}
@@ -258,7 +258,7 @@ layers:
   - ENTER
   - BACKSPACE
   - '|'
-  SCRL_W:
+  Layer6:
   - ESCAPE
   - Ctl+Sft+TAB
   - UP ARROW
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SCRL_M:
+  Layer7:
   - ESCAPE
   - Ctl+Sft+TAB
   - UP ARROW
@@ -344,7 +344,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  FN_W:
+  Layer8:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -387,7 +387,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  FN_M:
+  Layer9:
   - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -430,7 +430,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BLE_W:
+  Layer10:
   - F1
   - F2
   - F3
@@ -473,7 +473,7 @@ layers:
   - {t: ▽, type: trans}
   - '&bootloader'
   - BT CLR ALL
-  BLE_M:
+  Layer11:
   - F1
   - F2
   - F3
@@ -518,6 +518,6 @@ layers:
   - BT CLR ALL
 combos:
 - p: [39, 38]
-  k: {t: ESC, h: MOUSE_W}
+  k: {t: ESC, h: Layer4}
 - p: [11, 12]
   k: TAB
