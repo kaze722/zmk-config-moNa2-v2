@@ -177,8 +177,8 @@ keymap {
 compatible = "zmk,keymap";
 
 win_layer {
-display-name = "WIN";
-bindings = <
+display-name = "Default";
+bindings = 
 &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
 &kp A &kp S &kp D &kp F &kp G &kp MINUS &kp H &kp J &kp K &kp L &lt 4 SEMICOLON
 &mt LEFT_SHIFT Z &kp X &kp C &kp V &kp B &kp COLON &kp SEMICOLON &kp N &kp M &kp COMMA &kp DOT &lt 10 SLASH
@@ -191,8 +191,8 @@ sensor-bindings =
 };
 
 mac_layer {
-display-name = "MAC";
-bindings = <
+display-name = "Layer1";
+bindings = 
 &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
 &kp A &kp S &kp D &kp F &kp G &kp MINUS &kp H &kp J &kp K &kp L &lt 4 SEMICOLON
 &mt LEFT_SHIFT Z &kp X &kp C &kp V &kp B &kp COLON &kp SEMICOLON &kp N &kp M &kp COMMA &kp DOT &lt 11 SLASH
@@ -205,8 +205,8 @@ sensor-bindings =
 };
 
 num_win {
-display-name = "NUM_W";
-bindings = <
+display-name = "Layer2";
+bindings = 
 &kp ESCAPE &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp EQUAL &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp ASTERISK
 &kp TAB &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp PERCENT &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp MINUS
 &kp PIPE &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &kp PLUS &kp DOT &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp SLASH
@@ -217,8 +217,8 @@ sensor-bindings = <&rsr_default>;
 };
 
 num_mac {
-display-name = "NUM_M";
-bindings = <
+display-name = "Layer3";
+bindings = 
 &kp ESCAPE &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp EQUAL &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp ASTERISK
 &kp TAB &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp PERCENT &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp MINUS
 &kp PIPE &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &kp PLUS &kp DOT &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp SLASH
@@ -229,8 +229,8 @@ sensor-bindings = <&rsr_default>;
 };
 
 mouse_win {
-display-name = "MOUSE_W";
-bindings = <
+display-name = "Layer4";
+bindings = 
 &kp ESCAPE &kp LC(Z) &kp UP_ARROW &kp LC(Y) &kp LC(V) &kp CARET &kp AMPERSAND &mkp MB3 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS
 &kp TAB &kp LEFT_ARROW &screenshot &kp RIGHT_ARROW &kp ASTERISK &kp UNDERSCORE &kp EXCLAMATION &mkp MB1 &mo 6 &mkp MB2 &henkan
 &mt LEFT_SHIFT KP_NUMBER_0 &kp LC(Y) &kp DOWN_ARROW &kp END &kp HOME &kp EQUAL &trans &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_BRACE &kp RIGHT_BRACE &kp LC(SPACE)
@@ -241,8 +241,8 @@ sensor-bindings = <&rsr_default>;
 };
 
 mouse_mac {
-display-name = "MOUSE_M";
-bindings = <
+display-name = "Layer5";
+bindings = 
 &kp ESCAPE &kp LG(Z) &kp UP_ARROW &kp LG(LS(Z)) &kp LG(V) &kp CARET &kp AMPERSAND &mkp MB3 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS
 &kp TAB &kp LEFT_ARROW &kp LG(LC(LS(NUMBER_4))) &kp RIGHT_ARROW &kp LG(A) &kp UNDERSCORE &kp EXCLAMATION &mkp MB1 &mo 7 &mkp MB2 &kp LC(SPACE)
 &mt LEFT_SHIFT KP_NUMBER_0 &kp LG(LC(Z)) &kp DOWN_ARROW &kp LG(RIGHT) &kp LG(LEFT) &kp EQUAL &trans &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_BRACE &kp RIGHT_BRACE &kp LC(SPACE)
@@ -253,8 +253,8 @@ sensor-bindings = <&rsr_default>;
 };
 
 scroll_win {
-display-name = "SCRL_W";
-bindings = <
+display-name = "Layer6";
+bindings = 
 &kp ESCAPE &kp LC(LS(TAB)) &kp UP_ARROW &kp LC(TAB) &trans &trans &trans &mkp MB3 &trans &trans
 &kp HOME &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &kp END &out OUT_TOG &trans &mkp MB1 &trans &mkp MB2 &trans
 &kp LEFT_SHIFT &kp LG(LS(LEFT_ARROW)) &trans &kp LG(LS(RIGHT_ARROW)) &trans &trans &trans &trans &mkp MB1 &trans &mkp MB2 &trans
@@ -265,8 +265,8 @@ sensor-bindings = <&rsr_default>;
 };
 
 scroll_mac {
-display-name = "SCRL_M";
-bindings = <
+display-name = "Layer7";
+bindings = 
 &kp ESCAPE &kp LC(LS(TAB)) &kp UP_ARROW &kp LC(TAB) &trans &trans &trans &mkp MB3 &trans &trans
 &kp HOME &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &kp END &out OUT_TOG &trans &mkp MB1 &trans &mkp MB2 &trans
 &kp LEFT_SHIFT &kp LG(LS(LEFT_ARROW)) &trans &kp LG(LS(RIGHT_ARROW)) &trans &trans &trans &trans &trans &trans &trans &trans
@@ -277,8 +277,8 @@ sensor-bindings = <&rsr_default>;
 };
 
 function_win {
-display-name = "FN_W";
-bindings = <
+display-name = "Layer8";
+bindings = 
 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans &mkp MB1 &mkp MB3 &mkp MB2 &trans
 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
@@ -287,8 +287,8 @@ bindings = <
 };
 
 function_mac {
-display-name = "FN_M";
-bindings = <
+display-name = "Layer9";
+bindings = 
 &kp A &trans &trans &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
@@ -297,8 +297,8 @@ bindings = <
 };
 
 ble_win {
-display-name = "BLE_W";
-bindings = <
+display-name = "Layer10";
+bindings = 
 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &BT0 &BT1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
 &kp F6 &kp F7 &kp F8 &kp F9 &trans &trans &trans &trans &trans &trans &studio_unlock
 &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans &trans &bootloader &trans &trans &trans &trans &bt BT_CLR
@@ -307,8 +307,8 @@ bindings = <
 };
 
 ble_mac {
-display-name = "BLE_M";
-bindings = <
+display-name = "Layer11";
+bindings = 
 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &BT0 &BT1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
 &kp F6 &kp F7 &kp F8 &kp F9 &trans &trans &trans &trans &trans &trans &studio_unlock
 &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &trans &trans &bootloader &trans &trans &trans &trans &bt BT_CLR
